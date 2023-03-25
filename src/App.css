@@ -1,0 +1,42 @@
+.App {  
+  /* background-color: #001814; */
+  /* background-image: url("/src/assets/subtle-prism.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll, local; */
+  /* background: linear-gradient(180deg, rgba(2,0,36,1) 13%, rgba(9,18,121,1) 57%, rgba(47,3,187,1) 83%, rgba(70,0,255,1) 100%);   */
+  
+  background-image: url("/src/assets/blocks.png");
+  /* background-size: cover; */
+  color: #FFFF;
+  height: 100vh;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  margin: 0;
+  font-family: "Swansea-q3pd";
+  animation: moveBg 300s ease infinite;
+}
+
+@keyframes moveBg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -3000px -3000px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

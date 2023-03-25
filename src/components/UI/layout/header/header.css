@@ -1,0 +1,60 @@
+#header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 6vh;    
+}
+
+#logo{
+    
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav{    
+    margin-right: 10%;    
+    min-width: 20%;
+    font-family: "Swansea-q3pd";
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#nav ul li{    
+    list-style: none;    
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;    
+}
+
+#connectWallet {
+    background-color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    border-color: white;
+    border-width: 0px;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+
